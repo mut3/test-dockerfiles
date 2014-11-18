@@ -20,7 +20,7 @@ RUN ldconfig -p | grep pj
 
 WORKDIR /
 
-ENV AUTOBUILD_UNIXTIME 123123
+ENV AUTOBUILD_UNIXTIME 1416276157
 
 # Download asterisk.
 # This is an experiment for Asterisk 13
