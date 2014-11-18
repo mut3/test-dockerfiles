@@ -46,7 +46,7 @@ RUN make menuselect.makeopts
 # from: https://wiki.asterisk.org/wiki/display/AST/Building+and+Installing+Asterisk
 RUN sed -i "s/BUILD_NATIVE//" menuselect.makeopts
 # Continue with a standard make.
-RUN make
+RUN make 1> /dev/null
 RUN make install
 RUN make samples
 WORKDIR /
