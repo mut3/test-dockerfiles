@@ -1,4 +1,4 @@
-#bowline tag 1.6
+#bowline tag 1.7
 FROM centos:centos7
 MAINTAINER Doug Smith <info@laboratoryb.com>
 ENV build_date 2014-10-27
