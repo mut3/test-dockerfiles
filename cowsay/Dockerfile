@@ -12,5 +12,5 @@ MAINTAINER Doug Smith <info@laboratoryb.org>
 
 #bowline tag 1.0
 RUN yum install -y cowsay fortune
-RUN echo "Vermont is awesome" | cowsay
+RUN echo "Vermont is awesome" | cowsay -s
 ENV AUTOBUILD_UNIXTIME
