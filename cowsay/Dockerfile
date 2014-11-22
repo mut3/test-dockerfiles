@@ -11,6 +11,6 @@ FROM fedora:latest
 MAINTAINER Doug Smith <info@laboratoryb.org>
 
 #bowline tag 1.1
-RUN yum install -y cowsay fortune
+RUN yum install -y cowsay 1> /dev/null
 ENV AUTOBUILD_UNIXTIME
 RUN echo "Vermont is awesome" | cowsay -s
