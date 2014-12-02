@@ -10,7 +10,7 @@
 FROM fedora:latest
 MAINTAINER Doug Smith <info@laboratoryb.org>
 
-#bowline tag 1.2
+#bowline tag 1.3
 RUN yum install -y cowsay 1> /dev/null
 ENV AUTOBUILD_UNIXTIME
 RUN echo "Vermont is awesome" | cowsay -s
